@@ -25,20 +25,6 @@ background-color:#65ff5c;
   border-color:black;
   margin:0;
 }
-#GAcontent{
-}
-#Ccontent{
-}
-#Acontent{
-}
-#Rcontent{
-}
-#Econtent{
-}
-#Scontent{
-}
-#SCcontent{
-}
 .article {
   background-color: var(--background-default);
   border: 1px solid var(--outline-stronger);
@@ -70,7 +56,9 @@ background-color:#65ff5c;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--outline-stronger);
 }
-
+p{
+  color: var(--foreground-dimmer);
+}
 .articles .description {
   font-size: small;
   grid-area: description;
