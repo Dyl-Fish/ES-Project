@@ -1,7 +1,7 @@
 body{
 background-color:#131311;
 }
-button{
+a button{
   height:50px;
   background-color:#9cff96;
   border:double;
@@ -14,7 +14,7 @@ button{
   width:100%;
   transition:.5s;
 }
-button:hover{
+a button:hover{
 transition:.2s;
 background-color:#65ff5c;
 }
