@@ -1,1 +1,96 @@
+body{
+background-color:#131311;
+}
+button{
+  height:50px;
+  background-color:#9cff96;
+  border:double;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:50%;
+  font-family:sans-serif;
+  overflow:hidden;
+  width:100%;
+  transition:.5s;
+}
+button:hover{
+transition:.2s;
+background-color:#65ff5c;
+}
+.nav{
+  display:flex;
+  background-color:white;
+  border:2px;
+  border-color:black;
+  margin:0;
+}
+#GAcontent{
+}
+#Ccontent{
+}
+#Acontent{
+}
+#Rcontent{
+}
+#Econtent{
+}
+#Scontent{
+}
+#SCcontent{
+}
+.article {
+  background-color: var(--background-default);
+  border: 1px solid var(--outline-stronger);
+  border-radius: 2px;
+  padding: 0.8em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  display: grid;
+  grid-template-areas:
+    "titles      media"
+    "description media";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 150px;
+  width: 500px;
+}
 
+.article .headline {
+  grid-area: titles;
+}
+
+.article .title {
+  font-size: x-large;
+  font-family: Manrope;
+}
+
+.article .subtitle {
+  font-size: small;
+  color: var(--foreground-dimmer);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--outline-stronger);
+}
+
+.articles .description {
+  font-size: small;
+  grid-area: description;
+}
+
+.articles .image {
+  margin-left: 1em;
+  width: 150px;
+  height: 150px;
+  grid-area: media;
+  object-fit: contain;
+  align-self: center;
+  overflow: hidden;
+}
+.articles {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
