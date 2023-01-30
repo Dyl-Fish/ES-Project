@@ -4,7 +4,7 @@ background-color:#131311;
 a, button{
   height:50px;
   background-color:#9cff96;
-  border:double;
+  border:single;
   display:flex;
   align-items:center;
   justify-content:center;
