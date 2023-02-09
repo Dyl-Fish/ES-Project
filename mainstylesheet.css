@@ -3,6 +3,7 @@ background-image: url('https://rare-gallery.com/uploads/posts/1139729-sunlight-f
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 100%;
 }
 a, button{
   height:50px;
